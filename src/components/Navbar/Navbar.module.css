@@ -1,0 +1,30 @@
+/* Navbar.module.css */
+
+.navbar {
+    background-color: #FF4081; /* Pink color for a cat theme */
+    overflow: hidden;
+    padding: 10px;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    background-color: #E91E63; /* Darker pink on hover */
+  }
+  
+  .navbar a.active {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  /* Add more cat-themed styles as needed */
+  
