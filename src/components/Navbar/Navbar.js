@@ -7,9 +7,11 @@ const Navbar = () => {
   return (
     <div className={styles.navbar}>
       <Link to="/">Home</Link>
-      <Link to="/O">OP</Link>
+      <Link to="/OP">OP</Link>
       <Link to="/CAT">CAT</Link>
       <Link to="/OP_CAT">OP_CAT</Link>
+      <Link to="/FEED_CAT">FEED_CAT</Link>
+
     </div>
   );
 };
