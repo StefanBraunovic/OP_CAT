@@ -1,5 +1,6 @@
 // CatComponent.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from './CatAnimation.module.css'; // Import the CSS module
 
 const CatComponent = () => {
@@ -31,6 +32,15 @@ const CatComponent = () => {
           <span key={index} className={styles.catColor}></span>
         ))}
       </div>
+      <div className={`${styles.messageBox} ${styles.hidden}`}> 
+      <div className={`${styles.messageTitle}`}>ERROR: FEED_CAT</div>
+      <p className={`${styles.message}`}>Open the tunacan, human!</p>
+       <Link to="/FEED_CAT">
+         <button>FEED_CAT</button>
+        </Link>
+
+      </div>
+        
     </div>
   );
 };
