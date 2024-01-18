@@ -1,0 +1,113 @@
+/* WalkingCat.module.css */
+
+  
+   .main{
+    font-size: 20px;
+    margin: 0;
+    background: #0c0207;
+  }
+  
+  .marco {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 16px;
+  }
+  
+  .cielo {
+    border-radius: 16px;
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to bottom, #0B4C5F 0%, #04B4AE 52%, #0c0207 100%);
+    position: absolute;
+    z-index: -30;
+    top: 0;
+    margin-top: 2em;
+  }
+  
+  .edificios {
+    background: url('https://res.cloudinary.com/pastelitos/image/upload/v1610526533/eva/edificiosOne_fsg7nx.svg');
+    height: 500px;
+    width: 100%;
+    z-index: -10;
+    top: 6.5em;
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    position: absolute;
+    animation: animar_edificios 120s linear infinite;
+  }
+  
+  /* Animacion edificios */
+  @keyframes animar_edificios {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+  
+  .luna {
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    box-shadow: 30px 10px 0 #F7F8E0;
+    margin-top: 1em;
+    margin-left: 50%;
+    position: absolute;
+    z-index: -19;
+  }
+  
+  .muro {
+    height: 23em;
+    width: 100%;
+    background: linear-gradient(to bottom, #416663 0%, #0c0207 19%);
+    bottom: 0px;
+  }
+  
+  .gato {
+    background: url('https://res.cloudinary.com/pastelitos/image/upload/v1610526571/eva/gatito_pushui.svg');
+    height: 297px;
+    width: 507.5px;
+    margin-top: 2em;
+    margin-left: 2em;
+    z-index: 10;
+    animation: sprite-animation 1.2s steps(16, end) infinite;
+  }
+  
+
+  .matrixTextContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    white-space: nowrap;
+    color: #00ff00; /* Matrix green color */
+  }
+  
+  .matrixText {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1.2em;
+    animation: matrix-animation 10s linear infinite;
+  }
+  
+  @keyframes matrix-animation {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  @keyframes sprite-animation {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: -8120px 0;
+    }
+  }
+  
