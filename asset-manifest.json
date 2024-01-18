@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/StefanBraunovic/OP_CAT/static/css/main.43dc801f.css",
-    "main.js": "/StefanBraunovic/OP_CAT/static/js/main.07e0f94d.js",
+    "main.js": "/StefanBraunovic/OP_CAT/static/js/main.015f27bf.js",
     "static/js/787.3ef0e492.chunk.js": "/StefanBraunovic/OP_CAT/static/js/787.3ef0e492.chunk.js",
     "index.html": "/StefanBraunovic/OP_CAT/index.html",
     "main.43dc801f.css.map": "/StefanBraunovic/OP_CAT/static/css/main.43dc801f.css.map",
-    "main.07e0f94d.js.map": "/StefanBraunovic/OP_CAT/static/js/main.07e0f94d.js.map",
+    "main.015f27bf.js.map": "/StefanBraunovic/OP_CAT/static/js/main.015f27bf.js.map",
     "787.3ef0e492.chunk.js.map": "/StefanBraunovic/OP_CAT/static/js/787.3ef0e492.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43dc801f.css",
-    "static/js/main.07e0f94d.js"
+    "static/js/main.015f27bf.js"
   ]
 }
