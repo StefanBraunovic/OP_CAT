@@ -4,6 +4,7 @@ import styles from './WalkingCat.module.css';
 
 const WalkingCat = () => {
   return (
+    <div className={styles.main}>
     <div className={styles.marco}>
       <div className={styles.cielo}></div>
       <div className={styles.luna}></div>
@@ -26,8 +27,8 @@ const WalkingCat = () => {
 break;`}
         </pre>
       </div>
-      <img className={styles.gatoImage} src="/gatito_pushui.svg" alt="Cat Image" />
-    </div>
+      <img className={styles.gatoImage} src="/gatito_pushui.svg" alt="Cat" />
+    </div></div>
   );
 };
 

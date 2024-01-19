@@ -1,6 +1,6 @@
 // src/components/CatSelection/CatSelection.js
 import React, { useState } from 'react';
-
+import styles from './CatSelection.module.css'; // Import the CSS module
 const CatSelection = ({ onSelectCat }) => {
   const [catNumber, setCatNumber] = useState('');
   const [validationError, setValidationError] = useState('');
@@ -38,17 +38,24 @@ const CatSelection = ({ onSelectCat }) => {
   };
 
   return (
-    <div>
-      <h2>Select a Cat</h2>
-      <label>
+    <div className={`${styles.messageBox} ${styles.hidden}`}> 
+    <div className={`${styles.messageTitle}`}>SELECT CAT</div>
+    <div className={`${styles.message}`}>
+    <label>
         Cat Number:
         <input type="text" value={catNumber} onChange={handleInputChange} />
       </label>
       {validationError && <p style={{ color: 'red' }}>{validationError}</p>}
+    </div>
+     
+      
       <button onClick={handleSelect} disabled={validationError !== ''}>
         Select Cat
       </button>
+      
+
     </div>
+ 
   );
 };
 

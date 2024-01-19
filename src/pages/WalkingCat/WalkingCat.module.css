@@ -4,7 +4,7 @@
    .main{
     font-size: 20px;
     margin: 0;
-    background: #0c0207;
+ 
   }
   
   .marco {
@@ -79,12 +79,15 @@
 
   .matrixTextContainer {
     position: absolute;
+    padding-left:15px;
+    padding-right:15px;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    right: 0; /* Align to the right side */
+    transform: translateY(-50%);
     overflow: hidden;
     white-space: nowrap;
     color: #00ff00; /* Matrix green color */
+    background-color: rgba(0, 0, 0, 0.8);
   }
   
   .matrixText {
