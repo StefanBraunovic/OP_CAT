@@ -13,7 +13,7 @@ const OP = () => {
       <div className={styles.gridItem}>Succcess Flow</div>
       <div className={styles.gridItem}>
       <object
-          className='cat' 
+          className='animation1' 
           data={animation1}
           type="image/svg+xml"
           aria-label="OP Cat Animation"

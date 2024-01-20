@@ -308,7 +308,6 @@ span:nth-child(15){
   height: 120px;
   background-color: #c3c3c3;
   margin: auto;
-  text-align: center;
   /* Adjust position as needed */
   top: 120px;
   left: 500px;
@@ -325,9 +324,9 @@ span:nth-child(15){
   top:0;
   background: linear-gradient(
     90deg,
-    rgba(233, 30, 99, 1) 0%,
-    rgba(255,64,129, 1) 35%,
-    rgba(250, 209, 223, 1) 100%
+    rgba(247, 147, 26, 1) 0%,
+    rgba(249, 174, 83, 1) 35%,
+    rgba(252, 209, 157, 1) 100%
   );	
 }
 .message {

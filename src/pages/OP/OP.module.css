@@ -1,7 +1,9 @@
 .container {
     text-align: center;
   }
-  
+  .opH1{
+    color:white;
+  }
   .twoByTwoGrid {
       display: flex;
       flex-direction: column;

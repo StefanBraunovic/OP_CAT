@@ -11,7 +11,7 @@ const WalkingCat = () => {
       <div className={styles.gato}></div>
       <div className={styles.muro}></div>
       <div className={styles.edificios}></div>
-      <div className={styles.matrixTextContainer}>
+      <div className={`${styles.matrixTextContainer} ${styles.overlay}}`}>
         <pre className={styles.matrixText}>
           {`case OP_CAT:
 {
