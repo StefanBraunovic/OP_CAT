@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar';
 import OP from './pages/OP/OP';
 import EatingCat from './pages/EatingCat/EatingCat';
 import WalkingCat from './pages/WalkingCat/WalkingCat';
+import OPCAT from './pages/OPCAT/OPCAT';
 function App() {
   return (
     <Router>
@@ -13,10 +14,9 @@ function App() {
       <Navbar />
       <Routes>
       <Route path="/OP" element={<OP />} />
+      <Route path="/OP_CAT" element={<OPCAT />} />
       <Route path="/CAT" element={<WalkingCat />} />
-      <Route path="/OP_CAT" element={<Home />} />
       <Route path="/FEED_CAT" element={<EatingCat />} />
-
         <Route path="/" element={<Home />} />
       </Routes>
     </div>

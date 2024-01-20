@@ -1,0 +1,56 @@
+
+/* Style for the container holding both columns */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Style for each column */
+.column {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 20px;
+  height: auto;
+}
+
+/* Style for the animated GIF */
+.imgres {
+  max-width: 100%; /* Set max-width to make the image responsive */
+  height: auto;
+  display: block; /* Remove extra spacing below the image */
+}
+
+/* Style for the header */
+.header {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style for the text */
+.text {
+  font-size: 16px;
+  text-align: left;
+}
+
+mark { 
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 3px;
+}
+
+/* Media query for mobile view */
+@media (max-width: 600px) {
+  /* Stack columns in mobile view */
+  .container {
+    flex-direction: column;
+  }
+
+  /* Adjust padding for better spacing in mobile view */
+  .column {
+    padding: 10px;
+    width: 100%; /* Full width in mobile view */
+  }
+}
