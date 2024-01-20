@@ -5,6 +5,8 @@ import Home  from './pages/Home/Home'
 import Navbar from './components/Navbar/Navbar';
 import EatingCat from './pages/EatingCat/EatingCat';
 import WalkingCat from './pages/WalkingCat/WalkingCat';
+import VoteComponent from './components/Vote/Vote';
+
 function App() {
   return (
     <Router>
@@ -15,8 +17,8 @@ function App() {
       <Route path="/CAT" element={<WalkingCat />} />
       <Route path="/OP_CAT" element={<Home />} />
       <Route path="/FEED_CAT" element={<EatingCat />} />
-
-        <Route path="/" element={<Home />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/Vote" element={<VoteComponent />} />
       </Routes>
     </div>
   </Router>
