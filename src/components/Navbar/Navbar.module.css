@@ -3,18 +3,31 @@
 body {
   background-color: #0c0207  ;
   min-height: 110vh;
+  color:white;
 }
 .catIcon{
   width:50px;
 }
+.someLink{
+  padding:0 !important;
+}
+.some{
+  width:30px;
+  background-color:white;
+  
+}
 .navbar {
   background-color: #0c0207; /* Pink color for a cat theme */
   overflow: hidden;
-  padding: 10px;
+
   text-align: center;
 }
 .navbar a:first-child:before,
-.navbar a:first-child:after {
+.navbar a:first-child:after,
+.navbar a:last-child:before,
+.navbar a:last-child:after,
+.navbar a:nth-last-child(2):before,
+.navbar a:nth-last-child(2):after{
   content: ''; /* Remove [ before and ] after content for the first and last links */
 }
 
