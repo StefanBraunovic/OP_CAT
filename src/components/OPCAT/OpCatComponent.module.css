@@ -13,12 +13,7 @@
   flex: 1;
   box-sizing: border-box;
   padding: 20px;
-}
-
-.column {
-  flex: 1;
-  box-sizing: border-box;
-  padding: 20px;
+  height: auto;
 }
 
 /* Style for the animated GIF */
@@ -38,6 +33,12 @@
 .text {
   font-size: 16px;
   text-align: left;
+}
+
+mark { 
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 3px;
 }
 
 /* Media query for mobile view */

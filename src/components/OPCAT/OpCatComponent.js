@@ -3,20 +3,20 @@ import React from 'react';
 import styles from './OpCatComponent.module.css'
 
 const OpCatComponent = () => {
+  const code = "\n7faa4ae40eda9b26ed47e2c4a28924e06550e472\n_DEAD_\nOP_CAT\nOP_HASH160\nOP_EQUALVERIFY";
   return (
     <>
     {/* Step 1*/}
     <div className={styles.container}>
       <div className={styles.column}>
         <img
-          src={process.env.PUBLIC_URL + '/step1.gif'} // Replace with the path to your animated GIF
+          src={process.env.PUBLIC_URL + '/step1.png'} // Replace with the path to your animated GIF
           alt="Animated GIF"
           className={styles.imgres} />
       </div>
       <div className={styles.column}>
-        <h1 className={styles.header}>Step 1: Header Name Here</h1>
-        <p className={styles.text}>
-          Claw drapes give attitude hopped up on goofballs missing until dinner time nap all day run in circles stand in front of the computer screen stretch why must they do that. All of a sudden go crazy cat snacks chew ipad power cord climb leg find something else more interesting hate dog hide when guests come over hopped up on goofballs inspect anything brought into the house intently sniff hand leave dead animals as gifts make muffins mark territory missing until dinner time need to chase tail or need to chase tail run in circles stretch swat at dog throwup on your pillow under the bed use lap as chair why must they do that.      </p>
+        <h1 className={styles.header}>Step 1: Setting Up</h1>
+        <p className={styles.text}>Setup the debugger with the code on the left</p>
       </div>
     </div>
     {/* Step 2*/}
@@ -28,9 +28,8 @@ const OpCatComponent = () => {
           className={styles.imgres} />
       </div>
       <div className={styles.column}>
-        <h1 className={styles.header}>Step 2: Header Name Here</h1>
-        <p className={styles.text}>
-          Claw drapes give attitude hopped up on goofballs missing until dinner time nap all day run in circles stand in front of the computer screen stretch why must they do that. All of a sudden go crazy cat snacks chew ipad power cord climb leg find something else more interesting hate dog hide when guests come over hopped up on goofballs inspect anything brought into the house intently sniff hand leave dead animals as gifts make muffins mark territory missing until dinner time need to chase tail or need to chase tail run in circles stretch swat at dog throwup on your pillow under the bed use lap as chair why must they do that.      </p>
+        <h1 className={styles.header}>Step 2: Pushing items to the stack</h1>
+        <p className={styles.text}>Push <mark>7faa4ae40eda9b26ed47e2c4a28924e06550e472</mark> in the stack</p>
       </div>
     </div>
     {/* Step 3*/}
@@ -42,10 +41,9 @@ const OpCatComponent = () => {
           className={styles.imgres} />
       </div>
       <div className={styles.column}>
-        <h1 className={styles.header}>Step 3: Header Name Here</h1>
-        <p className={styles.text}>
-          Claw drapes give attitude hopped up on goofballs missing until dinner time nap all day run in circles stand in front of the computer screen stretch why must they do that. All of a sudden go crazy cat snacks chew ipad power cord climb leg find something else more interesting hate dog hide when guests come over hopped up on goofballs inspect anything brought into the house intently sniff hand leave dead animals as gifts make muffins mark territory missing until dinner time need to chase tail or need to chase tail run in circles stretch swat at dog throwup on your pillow under the bed use lap as chair why must they do that.      </p>
-      </div>
+      <h1 className={styles.header}>Step 3: Pushing more items</h1>
+      <p className={styles.text}>Push <mark>_DEAD_</mark> to the stack (in byte representation) </p>      
+    </div>
     </div>
     {/* Step 4*/}
     <div className={styles.container}>
@@ -56,9 +54,8 @@ const OpCatComponent = () => {
           className={styles.imgres} />
       </div>
       <div className={styles.column}>
-        <h1 className={styles.header}>Step 4: Header Name Here</h1>
-        <p className={styles.text}>
-          Claw drapes give attitude hopped up on goofballs missing until dinner time nap all day run in circles stand in front of the computer screen stretch why must they do that. All of a sudden go crazy cat snacks chew ipad power cord climb leg find something else more interesting hate dog hide when guests come over hopped up on goofballs inspect anything brought into the house intently sniff hand leave dead animals as gifts make muffins mark territory missing until dinner time need to chase tail or need to chase tail run in circles stretch swat at dog throwup on your pillow under the bed use lap as chair why must they do that.      </p>
+      <h1 className={styles.header}>Step 4: Pushing last item</h1>
+      <p className={styles.text}>Push <mark>_CAT_</mark> to the stack (also bytes)</p>
       </div>
     </div>
     {/* Step 5*/}
@@ -70,9 +67,8 @@ const OpCatComponent = () => {
           className={styles.imgres} />
       </div>
       <div className={styles.column}>
-        <h1 className={styles.header}>Step 5: Header Name Here</h1>
-        <p className={styles.text}>
-          Claw drapes give attitude hopped up on goofballs missing until dinner time nap all day run in circles stand in front of the computer screen stretch why must they do that. All of a sudden go crazy cat snacks chew ipad power cord climb leg find something else more interesting hate dog hide when guests come over hopped up on goofballs inspect anything brought into the house intently sniff hand leave dead animals as gifts make muffins mark territory missing until dinner time need to chase tail or need to chase tail run in circles stretch swat at dog throwup on your pillow under the bed use lap as chair why must they do that.      </p>
+      <h1 className={styles.header}>Step 5: Executing OP_CAT</h1>
+      <p className={styles.text}>Execute <mark>OP_CAT</mark> concatenating the two byte strings, popping them from the stack and pushing the concatenating bytes </p>
       </div>
     </div>
     {/* Step 6*/}
@@ -84,9 +80,9 @@ const OpCatComponent = () => {
           className={styles.imgres} />
       </div>
       <div className={styles.column}>
-        <h1 className={styles.header}>Step 6: Header Name Here</h1>
+        <h1 className={styles.header}>Step 6: Execute OP_HASH160</h1>
         <p className={styles.text}>
-          Claw drapes give attitude hopped up on goofballs missing until dinner time nap all day run in circles stand in front of the computer screen stretch why must they do that. All of a sudden go crazy cat snacks chew ipad power cord climb leg find something else more interesting hate dog hide when guests come over hopped up on goofballs inspect anything brought into the house intently sniff hand leave dead animals as gifts make muffins mark territory missing until dinner time need to chase tail or need to chase tail run in circles stretch swat at dog throwup on your pillow under the bed use lap as chair why must they do that.      </p>
+        Execute <mark>OP_HASH160</mark> to hash the top item on the stack with the HASH160 algorithm</p>
       </div>
     </div>
     {/* Step 7*/}
@@ -98,9 +94,10 @@ const OpCatComponent = () => {
           className={styles.imgres} />
       </div>
       <div className={styles.column}>
-        <h1 className={styles.header}>Step 7: Header Name Here</h1>
+        <h1 className={styles.header}>Step 7: Execute OP_EQUALVERIFY</h1>
         <p className={styles.text}>
-          Claw drapes give attitude hopped up on goofballs missing until dinner time nap all day run in circles stand in front of the computer screen stretch why must they do that. All of a sudden go crazy cat snacks chew ipad power cord climb leg find something else more interesting hate dog hide when guests come over hopped up on goofballs inspect anything brought into the house intently sniff hand leave dead animals as gifts make muffins mark territory missing until dinner time need to chase tail or need to chase tail run in circles stretch swat at dog throwup on your pillow under the bed use lap as chair why must they do that.      </p>
+          Execute <mark>OP_HASH160</mark> to ensure <mark>7faa4ae40eda9b26ed47e2c4a28924e06550e472</mark> and the newly calculated <mark>hash160</mark> are equal
+        </p>
       </div>
     </div>
     </>
