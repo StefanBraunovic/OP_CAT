@@ -4,13 +4,14 @@ import styles from './WalkingCat.module.css';
 
 const WalkingCat = () => {
   return (
+    <div className={styles.main}>
     <div className={styles.marco}>
       <div className={styles.cielo}></div>
       <div className={styles.luna}></div>
       <div className={styles.gato}></div>
       <div className={styles.muro}></div>
       <div className={styles.edificios}></div>
-      <div className={styles.matrixTextContainer}>
+      <div className={`${styles.matrixTextContainer} ${styles.overlay}}`}>
         <pre className={styles.matrixText}>
           {`case OP_CAT:
 {
@@ -26,8 +27,8 @@ const WalkingCat = () => {
 break;`}
         </pre>
       </div>
-      <img className={styles.gatoImage} src="/gatito_pushui.svg" alt="Cat Image" />
-    </div>
+      <img className={styles.gatoImage} src="/gatito_pushui.svg" alt="Cat" />
+    </div></div>
   );
 };
 

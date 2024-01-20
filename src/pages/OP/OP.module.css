@@ -1,0 +1,29 @@
+.container {
+    text-align: center;
+  }
+  .opH1{
+    color:white;
+  }
+  .twoByTwoGrid {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    .gridRow {
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      margin-bottom: 20px;
+    }
+    
+    .gridItem {
+      flex: 1;
+      text-align: center;
+      background-color: #f0f0f0;
+      padding: 20px;
+      margin-right: 10px;
+      font-size: 18px;
+      font-weight: bold;
+    }
