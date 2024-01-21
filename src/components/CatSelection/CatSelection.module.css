@@ -6,7 +6,7 @@ background-color: #242424;
 .catContainer {
   position: absolute;
   top: 0;
-  left: -7%;
+  left: -15%;
 }
 
 .catHead {
@@ -348,4 +348,11 @@ animation-delay: 2.8s;
     0% {transform:translateY(0px);}
     50% {transform: translateY(-6px);}
     100% {transform:translateY(0px);}
+}
+@media (max-width: 768px) {
+  .catContainer {
+  position: absolute;
+  top: 0;
+  left: -90%;
+}
 }

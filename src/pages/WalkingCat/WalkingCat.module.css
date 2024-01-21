@@ -113,4 +113,10 @@
       background-position: -8120px 0;
     }
   }
-  
+  /* Media query for mobile */
+@media (max-width: 768px) {
+  .matrixTextContainer {
+    display: none; /* Hide on mobile devices */
+  }
+}
+ 
