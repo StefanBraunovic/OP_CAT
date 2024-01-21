@@ -11,40 +11,46 @@ const TeamMembers = () => {
   const teamMembersData = [
     {
       imageUrl: himorasiImage,
-      title: 'himorasi',
+      title: '@himorazi',
       description: 'Animations & content',
+      twitter: "https://twitter.com/himorazi"
     },
     {
       imageUrl: blackglitterImage,
-      title: 'blackglitter',
+      title: '@StefanBraunovic',
       description: 'Usecase demo & frontend',
+      twitter: "https://twitter.com/StefanBraunovic"
     },
     {
       imageUrl: morinduneImage,
-      title: 'morindune',
+      title: '@morindune',
       description: 'Frontend & content',
+      twitter: "https://twitter.com/morindune"
     },
     {
       imageUrl: shiftyImage,
-      title: 'shifty',
+      title: '@shifty_',
       description: 'Frontend',
+      twitter: "https://twitter.com/shnifty_"
     },
     {
       imageUrl: dreadfulImage,
-      title: 'dreadful-dev',
+      title: '@dreadful-dev',
       description: 'Usecase demo',
+      twitter: "https://twitter.com/dreadful_dev"
     },
     {
       imageUrl: internalImage,
-      title: 'internalError',
+      title: '@TheTruePhilippB',
       description: 'Article',
+      twitter: "https://twitter.com/TheTruePhilippB"
     },
   ];
 
   return (
     <div className={styles.teamMembersContainer}>
       {teamMembersData.map((item, index) => (
-        <div key={index} className={styles.teamMemberItem}>
+        <a key={index} href={item.twitter} target="_blank" className={styles.teamMemberItem}>
           <img
             src={item.imageUrl}
             alt={item.title}
@@ -54,7 +60,7 @@ const TeamMembers = () => {
             <h3>{item.title}</h3>
             <p>{item.description}</p>
           </div>
-        </div>
+        </a>
       ))}
     </div>
   );

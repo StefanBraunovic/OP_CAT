@@ -46,15 +46,17 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="/ARTICLE">OP_ARTICLE</Link>
+            </li>
+            <li>
             <Link to="/VOTE">VOTE_CAT</Link>
           </li>
           <li>
-            <a className={styles.someLink} href="https://github.com/StefanBraunovic/OP_CAT">
+            <a className={styles.someLink} href="https://github.com/StefanBraunovic/OP_CAT" target="_blank">
               <img className="some" src={gitHub} alt="OP Cat" style={{ width: '30px' }} />
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/OperationDedCat">
+            <a href="https://twitter.com/OperationDedCat" target="_blank">
               <img className="some" src={twitter} alt="OP Cat" style={{ width: '30px' }} />
             </a>
           </li>
