@@ -1,4 +1,4 @@
-# **OP_CAT Challenge Readme**
+# **OP_CAT Challenge **
 
 *To get the most accurate and up-to-date information, I recommend checking the official Taproot Wizards website, their official communication channels (such as social media accounts or discord), or any documentation they provide for the OP_CAT challenge. Additionally, if there are any specific instructions or guidelines provided by Taproot Wizards, they should be outlined in the challenge documentation or readme file associated with the OP_CAT challenge.*
 
