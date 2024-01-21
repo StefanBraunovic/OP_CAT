@@ -113,3 +113,24 @@
     background-position: -8120px 0;
   }
 }
+.aboutSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+
+.column {
+  width: 48%;
+  margin-bottom: 1em;
+  padding:10px;
+}
+
+@media (max-width: 768px) {
+  .aboutSection {
+    flex-direction: column;
+  }
+  .column {
+    width: 100%;
+  }
+}
