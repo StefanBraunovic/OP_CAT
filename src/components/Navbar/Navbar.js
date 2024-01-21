@@ -46,6 +46,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="/ARTICLE">OP_ARTICLE</Link>
+            <Link to="/VOTE">VOTE_CAT</Link>
           </li>
           <li>
             <a className={styles.someLink} href="https://github.com/StefanBraunovic/OP_CAT">

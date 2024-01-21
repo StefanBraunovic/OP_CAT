@@ -9,6 +9,8 @@ import Content from './pages/Content/Content';
 import Opcat from './pages/OPCAT/OPCAT';
 import Article from './pages/Article/Article';
 import SmartContractCat from './pages/SmartContractCat/SmartContractCat';
+import Vote from './pages/Vote/Vote';
+
 
 function App() {
   return (
@@ -22,7 +24,7 @@ function App() {
       <Route path="/FEED_CAT" element={<EatingCat />} />
       <Route path="/ARTICLE" element={<Article />} />
       <Route path="/OP_CAT_SMART" element={<SmartContractCat />} />
-
+      <Route path="/Vote" element={<Vote />} />
       <Route path="/" element={<Home />} />
       </Routes>
     </div>
