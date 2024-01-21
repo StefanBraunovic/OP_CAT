@@ -1,6 +1,7 @@
 // WalkingCat.js
 import React from 'react';
 import styles from './Home.module.css';
+import TeamMembers from '../../components/TeamMembers/TeamMembers';
 
 const WalkingCat = () => {
   return (
@@ -21,11 +22,11 @@ const WalkingCat = () => {
       </div>
       <img className={styles.gatoImage} src="/gatito_pushui.svg" alt="Cat" />
     </div></div>
-   
+    <TeamMembers />
     <div className={styles.aboutSection}>
     
     <div className={styles.column}>
-       test
+    
     </div>
 
     

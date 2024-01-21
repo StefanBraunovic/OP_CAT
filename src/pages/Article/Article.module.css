@@ -1,30 +1,52 @@
+/* SmartContractWithCatComponent.module.css */
+
 .container {
-    text-align: center;
-    color:black;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
   }
-  .opH1{
-    color:white;
+  
+  .title {
+    color: #61dafb;
   }
-  .twoByTwoGrid {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      height: 100vh;
-    }
-    
-    .gridRow {
-      display: flex;
-      justify-content: space-between;
-      width: 80%;
-      margin-bottom: 20px;
-    }
-    
-    .gridItem {
-      flex: 1;
-      text-align: center;
-      background-color: #f0f0f0;
-      padding: 20px;
-      margin-right: 10px;
-      font-size: 18px;
-      font-weight: bold;
-    }
+  
+  .description {
+    margin-top: 20px;
+  }
+  
+  .description p {
+    line-height: 1.5;
+  }
+  
+  .description h2, h3 {
+    color: #61dafb;
+  }
+  
+  .description ol {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .description li {
+    margin-bottom: 5px;
+  }
+  
+  .referenceLink {
+    color: #4CAF50; /* Green color for the reference link */
+    text-decoration: none;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .referenceLink img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  .referenceLink:hover {
+    text-decoration: underline;
+  }
+  

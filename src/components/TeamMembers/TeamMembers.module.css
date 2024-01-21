@@ -1,0 +1,58 @@
+/* Default styles for larger screens */
+.teamMembersContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.teamMemberItem {
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.roundedImage {
+  border-radius: 50%;
+  max-width: 100px;
+  margin: 0 auto;
+}
+
+.teamMemberText {
+  margin-top: 10px;
+}
+
+.teamMemberText h3 {
+  font-size: 1.2rem;
+}
+
+.teamMemberText p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Responsive styles for smaller screens (adjust as needed) */
+@media screen and (max-width: 768px) {
+  .teamMembersContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 742px) {
+  .teamMembersContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .teamMemberItem {
+    padding: 0px;
+  }
+  .roundedImage {
+    max-width: 80px;
+  }
+  .teamMemberText h3 {
+    font-size: 1rem;
+  }
+  .teamMemberText p {
+    font-size: 0.9rem;
+  }
+}
