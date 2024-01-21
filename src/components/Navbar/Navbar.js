@@ -45,6 +45,9 @@ const Navbar = () => {
             <Link to="/FEED_CAT">FEED_CAT</Link>
           </li>
           <li>
+            <Link to="/OP_CAT_SMART">OP_CAT_SMART</Link>
+          </li>
+          <li>
             <a className={styles.someLink} href="https://github.com/StefanBraunovic/OP_CAT">
               <img className="some" src={gitHub} alt="OP Cat" style={{ width: '30px' }} />
             </a>
