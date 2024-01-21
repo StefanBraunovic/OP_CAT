@@ -1,3 +1,6 @@
+:not(body) .votecontainer {
+    color: #000000;
+}
 .votecontainer {
     display: flex;
     flex-direction: column;

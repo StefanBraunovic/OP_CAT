@@ -149,7 +149,7 @@ const VoteComponent = () => {
           </div>
           <h3 className={styles.center}>Are you an OP_CAT enjoyeer?</h3>
 
-          <Stack spacing={2} direction="row" justifyContent={'space-evenly'}>
+          <Stack spacing={2} direction="row" justifyContent={'center'}>
             <Button size='small' variant='contained' onClick={() => handleVote('Yes')}>Yes</Button>
             <Button size='small' variant='contained' onClick={() => handleVote('No')}>No</Button>
           </Stack>
