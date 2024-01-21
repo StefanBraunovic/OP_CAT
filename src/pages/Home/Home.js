@@ -1,10 +1,10 @@
-// WalkingCat.js
+// Home.js
 import React from 'react';
 import styles from './Home.module.css';
 import TeamMembers from '../../components/TeamMembers/TeamMembers';
 import ArticleOverview from '../../components/ArticleOverview/ArticleOverview';
 //import catHead from '../../assets/images/wizhat-cat.svg';
-const WalkingCat = () => {
+const Home = () => {
   return (
     <div>
     <div className={styles.main}>
@@ -29,4 +29,4 @@ const WalkingCat = () => {
   );
 };
 
-export default WalkingCat;
+export default Home;
