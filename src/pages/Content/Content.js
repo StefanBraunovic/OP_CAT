@@ -1,11 +1,10 @@
-// OP.js
+// Content.js
 import React from 'react';
-import styles from './OP.module.css';
-import Catsvg from './Catsvg';
-import Catsvg2 from './Catsvg2';
-import Catsvg3 from './Catsvg3';
+import styles from './Content.module.css';
+//import animation1 from '../../assets/animations/ANIMATION-1_updated.svg';
 
-const OP = () => {
+
+const Content = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.opH1}>What is OP_CAT?</h1>
@@ -13,20 +12,35 @@ const OP = () => {
       <div className={styles.gridRow}>
       <div className={styles.gridItem}>Succcess Flow</div>
       <div className={styles.gridItem}>
-      <Catsvg />
+      <object
+      //    className='animation1' 
+      //    data={animation1}
+      //    type="image/svg+xml"
+      //    aria-label="OP Cat Animation"
+        />
 
       </div>
     </div>
     <div className={styles.gridRow}>
       <div className={styles.gridItem}>
-      <Catsvg2 />
+      <object
+      //    className='animation1' 
+      //    data={animation1}
+      //    type="image/svg+xml"
+      //    aria-label="OP Cat Animation"
+        />
       </div>
       <div className={styles.gridItem}>Fail Flow 1</div>
     </div>
     <div className={styles.gridRow}>
       <div className={styles.gridItem}>Fail Flow 2</div>
       <div className={styles.gridItem}>
-      <Catsvg3 />
+      <object
+      //    className='animation1' 
+      //    data={animation1}
+      //    type="image/svg+xml"
+      //    aria-label="OP Cat Animation"
+        />
       </div>
     </div>
   </div>
@@ -34,4 +48,4 @@ const OP = () => {
   );
 };
 
-export default OP;
+export default Content;
