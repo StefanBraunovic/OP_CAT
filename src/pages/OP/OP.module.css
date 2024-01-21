@@ -1,30 +1,41 @@
 .container {
-  text-align: center;
-  color:black;
+  
+  color: black;
 }
-  .opH1{
-    color:white;
+
+.opH1 {
+  color: white;
+}
+
+.twoByTwoGrid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gridRow {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next row on smaller screens */
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.gridItem {
+  flex: 1;
+ 
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-right: 10px;
+  font-size: 18px;
+  width: calc(50% - 10px); /* Two items per row, with a small gap */
+  margin-bottom: 10px; /* Add some spacing between items */
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+  .gridItem {
+    width: 100%; /* Single column layout for mobile */
+    margin-right: 0; /* Remove right margin for mobile */
   }
-  .twoByTwoGrid {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      height: 100vh;
-    }
-    
-    .gridRow {
-      display: flex;
-      justify-content: space-between;
-      width: 80%;
-      margin-bottom: 20px;
-    }
-    
-    .gridItem {
-      flex: 1;
-      text-align: center;
-      background-color: #f0f0f0;
-      padding: 20px;
-      margin-right: 10px;
-      font-size: 18px;
-      font-weight: bold;
-    }
+}

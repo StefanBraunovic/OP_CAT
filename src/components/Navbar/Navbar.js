@@ -33,7 +33,7 @@ const Navbar = () => {
         </div>
         <ul className={`${styles.links} ${isOpen ? styles.open : ''}`}>
           <li>
-            <Link to="/OP">OP</Link>
+            <Link to="/OP">OP_FLOW</Link>
           </li>
           <li>
             <Link to="/OPCAT">OP_CAT</Link>

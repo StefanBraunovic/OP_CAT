@@ -1,22 +1,37 @@
 /* Default styles for larger screens */
+
 .teamMembersContainer {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  padding-top:10px;
 }
 
 .teamMemberItem {
   text-align: center;
-  background-color: #f7f7f7;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
-
+.teamMemberItem:hover {
+  background-color: white;
+  border-right: 10px solid #f7931a;
+  border-left: 10px solid #f7931a;
+  
+}
+.teamMemberItem h3{
+  margin-top:0px;
+  margin-bottom:0px;
+  color:#f7931a;
+}
+.teamMemberItem p{
+  margin-top:0px;
+  margin-bottom:0px;
+  
+}
 .roundedImage {
   border-radius: 50%;
   max-width: 100px;
   margin: 0 auto;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
 .teamMemberText {

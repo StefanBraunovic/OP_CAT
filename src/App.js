@@ -8,8 +8,8 @@ import EatingCat from './pages/EatingCat/EatingCat';
 import Content from './pages/Content/Content';
 import Opcat from './pages/OPCAT/OPCAT';
 import Article from './pages/Article/Article';
-
 import SmartContractCat from './pages/SmartContractCat/SmartContractCat';
+
 function App() {
   return (
     <Router>

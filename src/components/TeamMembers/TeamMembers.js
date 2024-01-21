@@ -1,33 +1,43 @@
 import React from 'react';
 import styles from './TeamMembers.module.css';
-
+import himorasiImage from '../../assets/team/himorasi.png';
+import morinduneImage from '../../assets/team/morindune.png';
+import dreadfulImage from '../../assets/team/dreadful.png';
+import blackglitterImage from '../../assets/team/blackglitter.webp';
+import shiftyImage from '../../assets/team/shifty.webp';
+import internalImage from '../../assets/team/internal.png';
 const TeamMembers = () => {
-  // Sample data for images and text
+
   const teamMembersData = [
     {
-      imageUrl: 'image1.jpg',
-      title: 'Member 1',
-      description: 'Description for Member 1',
+      imageUrl: himorasiImage,
+      title: 'himorasi',
+      description: 'Animations & content',
     },
     {
-      imageUrl: 'image2.jpg',
-      title: 'Member 2',
-      description: 'Description for Member 2',
+      imageUrl: blackglitterImage,
+      title: 'blackglitter',
+      description: 'Usecase demo & frontend',
     },
     {
-      imageUrl: 'image3.jpg',
-      title: 'Member 3',
-      description: 'Description for Member 3',
+      imageUrl: morinduneImage,
+      title: 'morindune',
+      description: 'Frontend & content',
     },
     {
-      imageUrl: 'image4.jpg',
-      title: 'Member 4',
-      description: 'Description for Member 4',
+      imageUrl: shiftyImage,
+      title: 'shifty',
+      description: 'Frontend',
     },
     {
-      imageUrl: 'image5.jpg',
-      title: 'Member 5',
-      description: 'Description for Member 5',
+      imageUrl: dreadfulImage,
+      title: 'dreadful-dev',
+      description: 'Usecase demo',
+    },
+    {
+      imageUrl: internalImage,
+      title: 'internalError',
+      description: 'Article',
     },
   ];
 

@@ -6,7 +6,7 @@ const Article = () => {
   return (
     <div className={styles.container}>
     
-    <h1 className={styles.title}>Bitcoin Smart Contract with OP_CAT</h1>
+    <h1 className={styles.title}>Satoshi's favorite pet.</h1>
     <div className={styles.description}>
       <p>
         Satoshi's favorite pet. You have probably seen everyone talking about cats, or OP_CAT, in the bitcoin scene. But what is it and why should we, as users, even care about OP_CAT? OP_CAT was a simple but very powerful function in bitcoin’s scripting language which was removed because it had some unintentional use cases that could have caused issues for the network. However, removing this function also drastically limited bitcoin’s scripting capabilities, making it difficult to build more complex use cases on bitcoin.
