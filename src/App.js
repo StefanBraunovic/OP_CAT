@@ -5,7 +5,7 @@ import Home  from './pages/Home/Home';
 import Navbar from './components/Navbar/Navbar';
 import OP from './pages/OP/OP';
 import EatingCat from './pages/EatingCat/EatingCat';
-import Content from './pages/Content/Content';
+import WalkingCat from './pages/WalkingCat/WalkingCat';
 function App() {
   return (
     <Router>
