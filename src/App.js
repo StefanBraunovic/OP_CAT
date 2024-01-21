@@ -7,7 +7,8 @@ import OP from './pages/OP/OP';
 import EatingCat from './pages/EatingCat/EatingCat';
 import WalkingCat from './pages/WalkingCat/WalkingCat';
 import OPCAT from './pages/OPCAT/OPCAT';
-import VoteComponent from './components/Vote/Vote';
+import Vote from './pages/Vote/Vote';
+
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       <Route path="/CAT" element={<WalkingCat />} />
       <Route path="/FEED_CAT" element={<EatingCat />} />
       <Route path="/" element={<Home />} />
-      <Route path="/Vote" element={<VoteComponent />} />
+      <Route path="/Vote" element={<Vote />} />
       </Routes>
     </div>
   </Router>

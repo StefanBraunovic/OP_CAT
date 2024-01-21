@@ -18,7 +18,7 @@ const Navbar = () => {
         <Link to="/CAT">CAT</Link>
         <Link to="/OP_CAT">OP_CAT</Link>
         <Link to="/FEED_CAT">FEED_CAT</Link>
-
+        <Link to="/VOTE">VOTE_CAT</Link>
       </div></>
   );
 };
