@@ -49,4 +49,13 @@
   .referenceLink:hover {
     text-decoration: underline;
   }
-  
+
+.footnoteReference {
+  font-size: 80%;
+  vertical-align: super;
+  text-decoration: none;
+  color: #4CAF50; /* Green color for the reference link */
+  margin-left: 4px;
+}
+
+
