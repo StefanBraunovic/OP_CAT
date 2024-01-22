@@ -1,11 +1,37 @@
 
 /* Style for the container holding both columns */
+
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   padding: 20px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  display: inline-block;
+  border: 1px solid black;
+  margin-bottom: 50px;
+}
+
+.image {
+  max-width: 800px; /* Set max-width to make the image responsive */
+  height: auto;
+}
+.note {
+  position: absolute;
+  right: -25px;
+  top: -25px;
+  width: 180px;
+  height: 180px;
+  background-color: #f7931a;
+  padding: 15px;
+  color: #000000;
+  box-shadow: 0 4px 8px rgba(239, 239, 238, 0.783);
 }
 
 /* Style for each column */
@@ -25,13 +51,13 @@
 
 /* Style for the header */
 .header {
-  font-size: 24px;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 
 /* Style for the text */
 .text {
-  font-size: 16px;
+  font-size: 12px;
   text-align: left;
 }
 
@@ -39,6 +65,8 @@ mark {
   background-color: #000000;
   color: #FFFFFF;
   padding: 3px;
+  overflow-wrap: break-word;
+  line-height: 1.5;
 }
 
 /* Media query for mobile view */
@@ -46,6 +74,51 @@ mark {
   /* Stack columns in mobile view */
   .container {
     flex-direction: column;
+  }
+
+  .image {
+    max-width: 450px; /* Set max-width to make the image responsive */
+    height: auto;
+  }
+
+  .header {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  .note {
+    position: relative;
+    width: auto;
+    height: auto;
+    color: #fff;
+    background-color: #000;
+    padding: 1px;
+    box-shadow: none;
+    top: 0;
+    right: 0;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    display: inline-block;
+    border: 1px solid black;
+    margin-bottom: 5px;
+  }
+
+    /* Style for the text */
+  .text {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  mark { 
+    background-color: #fff;
+    color: #000;
+    padding: 3px;
+    overflow-wrap: break-word;
+    line-height: 1.5;
   }
 
   /* Adjust padding for better spacing in mobile view */
