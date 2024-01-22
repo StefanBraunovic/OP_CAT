@@ -349,10 +349,37 @@ animation-delay: 2.8s;
     50% {transform: translateY(-6px);}
     100% {transform:translateY(0px);}
 }
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 610px) {
   .catContainer {
   position: absolute;
   top: 0;
-  left: -90%;
+  left: -60%;
+  }
 }
+@media (max-width: 610px) and (min-width: 516px) {
+  .catContainer {
+    position: absolute;
+    top: 0;
+    left: -80%;
+  }
+}
+@media (max-width: 516px) and (min-width: 487px) {
+  .catContainer {
+    position: absolute;
+    top: 0;
+    left: -100%;
+  }
+}
+@media (max-width: 487px) {
+  .catContainer {
+    position: absolute;
+    top: 0;
+    left: -100%;
+  }
+  
+  .catHead,.catLeftEye,.leftEyelid,.pupil,.catRightEye,
+  .rightEyelid,.catLeftEar,.catLeftInsideEar,.catRightEar,
+  .catRightInsideEar,.catHair,.catBody,.catFoot,.catTail{
+    display:none;
+  }
 }

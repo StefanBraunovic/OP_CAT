@@ -3,9 +3,9 @@ import styles from './TeamMembers.module.css';
 import himorasiImage from '../../assets/team/himorasi.png';
 import morinduneImage from '../../assets/team/morindune.png';
 import dreadfulImage from '../../assets/team/dreadful.png';
-import blackglitterImage from '../../assets/team/blackglitter.webp';
+import blackglitterImage from '../../assets/team/blackglitter.jpg';
 import shiftyImage from '../../assets/team/shifty.webp';
-import internalImage from '../../assets/team/internal.png';
+import internalImage from '../../assets/team/internalError.webp';
 const TeamMembers = () => {
 
   const teamMembersData = [
