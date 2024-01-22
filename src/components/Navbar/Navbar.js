@@ -38,17 +38,22 @@ const Navbar = () => {
           <li>
             <Link to="/OPCAT">OP_CAT</Link>
           </li>
-          <li>
-            <Link to="/FEED_CAT">FEED_CAT</Link>
-          </li>
+          
           <li>
             <Link to="/OP_CAT_SMART">OP_CAT_SMART</Link>
           </li>
           <li>
             <Link to="/ARTICLE">OP_ARTICLE</Link>
             </li>
+            
             <li>
             <Link to="/VOTE">VOTE_CAT</Link>
+          </li>
+          <li>
+            <Link to="/FEED_CAT">FEED_CAT</Link>
+          </li>
+          <li>
+            <Link to="/OP_CAT_RELAX">ABOUT_US</Link>
           </li>
           <li>
             <a className={styles.someLink} href="https://github.com/StefanBraunovic/OP_CAT" target="_blank">

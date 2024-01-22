@@ -3,6 +3,7 @@ import React from 'react';
 import styles from './Home.module.css';
 import TeamMembers from '../../components/TeamMembers/TeamMembers';
 import ArticleOverview from '../../components/ArticleOverview/ArticleOverview';
+import TwitterFeed from '../../components/TwitterFeed/TwitterFeed';
 //import catHead from '../../assets/images/wizhat-cat.svg';
 const Home = () => {
   return (
@@ -21,8 +22,9 @@ const Home = () => {
     <ArticleOverview />
     
   <div className={styles.mainCat}>
+  
   <TeamMembers />
-    
+  <TwitterFeed />
   
     </div>
   </div>
