@@ -7,8 +7,10 @@ import OP from './pages/OP/OP';
 import EatingCat from './pages/EatingCat/EatingCat';
 import Content from './pages/Content/Content';
 import Opcat from './pages/OPCAT/OPCAT';
+import Article from './pages/Article/Article';
 import SmartContractCat from './pages/SmartContractCat/SmartContractCat';
 import Vote from './pages/Vote/Vote';
+import WalkingCat from './pages/WalkingCat/WalkingCat';
 
 
 function App() {
@@ -21,7 +23,9 @@ function App() {
       <Route path="/CONTENT" element={<Content />} />
       <Route path="/OPCAT" element={<Opcat />} />
       <Route path="/FEED_CAT" element={<EatingCat />} />
+      <Route path="/ARTICLE" element={<Article />} />
       <Route path="/OP_CAT_SMART" element={<SmartContractCat />} />
+      <Route path="/OP_CAT_RELAX" element={<WalkingCat />} />
       <Route path="/Vote" element={<Vote />} />
       <Route path="/" element={<Home />} />
       </Routes>

@@ -1,6 +1,6 @@
 /* Global styles */
 body {
-  background-color: #0c0207;
+  background-color: #220614;
   min-height: 110vh;
   color: white;
 }
@@ -12,14 +12,14 @@ body {
 
 /* Navbar container */
 .navbar {
-  
-  background-color: #0c0207; /* Pink color for a cat theme */
+  background-color: #0c0207;
   overflow: hidden;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
   z-index: 300;
+  border-radius: 15px;
 }
 
 /* Hamburger menu icon */
@@ -44,6 +44,8 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  background-color: #0c0207;
+  border-radius: 15px;
   
 }
 
