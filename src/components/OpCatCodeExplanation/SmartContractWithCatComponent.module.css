@@ -1,0 +1,28 @@
+.container {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.title {
+  color: #61dafb;
+}
+
+.codeLine {
+  clear: both;
+  margin-bottom: 10px;
+}
+
+.even {
+  background-color: #333;
+}
+
+.odd {
+  background-color: #2d2d2d;
+}
+
+.explanation {
+  color: #4caf50;
+}
