@@ -1,13 +1,12 @@
 .container {
-  background-color: #1a1a1a;
-  color: #ffffff;
   padding: 20px;
   border-radius: 8px;
   margin: 20px;
+  background-color: #C0C0C0;
 }
 
 .title {
-  color: #61dafb;
+  color: #000;
 }
 
 .codeLine {
@@ -16,13 +15,16 @@
 }
 
 .even {
-  background-color: #333;
+  background-color: #E0E0E0;
+}
+code{
+  color:black;
 }
 
 .odd {
-  background-color: #2d2d2d;
+  background-color: #F0F0F0;
 }
 
 .explanation {
-  color: #4caf50;
+  color: #008000;
 }
