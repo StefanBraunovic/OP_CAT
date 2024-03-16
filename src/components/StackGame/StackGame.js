@@ -125,6 +125,7 @@ const StackGame = () => {
   return (
     <div>
       <div className={styles.gameContainer}>
+      <div className={styles.titleBar}>Stack_Game</div>
         {!gameStarted && (
           <button onClick={startGame} className={styles.button}>
             Start Game
