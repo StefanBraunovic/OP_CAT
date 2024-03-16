@@ -1,5 +1,5 @@
 .gameContainer {
-  background-color: #c0c0c0; /* Gray background */
+  background-color: #c0c0c0;
   color: #ffffff;
   padding: 20px;
   border-radius: 8px;
@@ -35,7 +35,7 @@
 }
 
 .button, .buttonContainer button {
-  background-color: #d3d3d3; /* Gray for regular buttons */
+  background-color: #d3d3d3;
   color: #000000;
   padding: 5px 10px;
   margin-right: 10px;
@@ -46,11 +46,11 @@
 }
 
 .button:hover, .buttonContainer button:hover {
-  background-color: #a9a9a9; /* Darker gray on hover */
+  background-color: #a9a9a9;
 }
 
 .restartButton, .startButton {
-  background-color: rgba(247, 147, 26, 1) !important; /* Orange */
+  background-color: rgba(247, 147, 26, 1) !important;
   color: #ffffff;
   padding: 5px 10px;
   cursor: pointer;
@@ -58,7 +58,7 @@
 }
 
 .restartButton:hover, .startButton:hover {
-  background-color: rgba(249, 174, 83, 1) !important; /* Darker orange on hover */
+  background-color: rgba(249, 174, 83, 1) !important;
 }
 
 .stack {
@@ -68,7 +68,7 @@
 }
 
 .stackItem {
-  background-color: rgba(247, 147, 26, 1) ;
+  background-color: rgba(247, 147, 26, 1);
   color: #ffffff;
   font-size: 1.2rem;
   padding: 5px 10px;
