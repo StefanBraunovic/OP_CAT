@@ -75,7 +75,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="https://twitter.com/OperationDedCat"
+              href="https://twitter.com/QuantumCatsXYZ"
               target="_blank"
               rel="noreferrer"
             >

@@ -58,10 +58,20 @@ const StackGame = () => {
       alert("Please start the game first.");
       return;
     }
+    
     const element = prompt("Enter the element to push onto the stack:");
-    setStack([...stack, parseInt(element)]);
-    setSteps(steps + 1);
+    
+    
+    if (isNaN(element) || element.trim() === '') {
+      alert("Error: Please enter a numeric value.");
+      return;
+    }
+    
+ 
+    setStack(prevStack => [...prevStack, parseInt(element)]);
+    setSteps(steps => steps + 1);
   };
+  
 
   const concatenateStack = () => {
     if (!gameStarted) {
@@ -125,6 +135,7 @@ const StackGame = () => {
   return (
     <div>
       <div className={styles.gameContainer}>
+      <div className={styles.titleBar}>Stack_Game</div>
         {!gameStarted && (
           <button onClick={startGame} className={styles.button}>
             Start Game
