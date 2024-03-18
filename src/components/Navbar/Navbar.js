@@ -53,10 +53,13 @@ const Navbar = () => {
             <Link to="/FEED_CAT">FEED_CAT</Link>
           </li>
           <li>
-            <Link to="/OP_CAT_RELAX">ABOUT_US</Link>
+            <Link to="/CODE_EXPLAINED">CODE_EXPLAINED</Link>
           </li>
           <li>
             <Link to="/STACK_GAME">STACK_GAME</Link>
+          </li>
+          <li>
+            <Link to="/OP_CAT_RELAX">ABOUT_US</Link>
           </li>
           <li>
             <a
