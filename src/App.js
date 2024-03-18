@@ -12,7 +12,7 @@ import SmartContractCat from "./pages/SmartContractCat/SmartContractCat";
 import Vote from "./pages/Vote/Vote";
 import WalkingCat from "./pages/WalkingCat/WalkingCat";
 import StackGame from "./components/StackGame/StackGame";
-
+import CodeExplained from "./pages/CodeExplained/CodeExplained";
 function App() {
   return (
     <Router>
@@ -28,6 +28,7 @@ function App() {
           <Route path="/OP_CAT_RELAX" element={<WalkingCat />} />
           <Route path="/Vote" element={<Vote />} />
           <Route path="/STACK_GAME" element={<StackGame />} />
+          <Route path="/CODE_EXPLAINED" element={<CodeExplained />} />
 
           <Route path="/" element={<Home />} />
         </Routes>

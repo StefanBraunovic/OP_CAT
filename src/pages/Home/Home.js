@@ -3,7 +3,7 @@ import React from 'react';
 import styles from './Home.module.css';
 import TeamMembers from '../../components/TeamMembers/TeamMembers';
 import ArticleOverview from '../../components/ArticleOverview/ArticleOverview';
-
+import { Link } from 'react-router-dom'; 
 //import catHead from '../../assets/images/wizhat-cat.svg';
 const Home = () => {
   return (
@@ -13,10 +13,11 @@ const Home = () => {
    &nbsp;
         </div>
       <div className={styles.transparentContainer}>
-      <h3>What is OP_CAT?</h3>
-      <p>OP_CAT was a powerful function in Bitcoin's scripting language but was removed due to potential issues.</p><p>
-       Some want to bring it back to enable more complex Bitcoin applications, while others have concerns.</p>
-       <p>This page is created as a part of the Quantumcats quests, and meant to be a site with resources and usecases to understand OP_CAT.</p>
+      <h3>Discover how 8 lines of code can concatenate such spellbinding tech! 🧙‍♂️💻🐾</h3>
+      <p>OP_CAT was a powerful function in Bitcoin's scripting language but was removed due to potential issues.</p>
+      <p>
+      The page has just been updated with <Link to="STACK_GAME">STACK_GAME</Link> & <Link to="/CODE_EXPLAINED">CODE_EXPLAINED</Link> explanation to how the 8 lines of code work. 
+       </p>
        </div>
     </div>
     <ArticleOverview />
